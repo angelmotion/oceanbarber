@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oceanbarber.com | San Diego, CA</title>
+    <link rel="shortcut icon" href="icons/angelwave.png" type="favicon/ico" />
+    <meta name="title" content="Ocean Barber | Modern Fades, Military Fades, Beard Trims & Classic Cuts">
+     <meta name="description" content="Josh Jimenez Ocean Barber offers professional haircuts, modern skin fades, military fades, beard trims, traditional classic haircut in Ocean Beach, CA. Book your appointment today.">
+    <meta name="keywords" content="oceanbarber.us, ocean barber josh jimenez ocean beach, modern fades, military fades, beard trim, gentlemen's haircut, professional grooming services">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oceanbarber.us/">
+    <!-- 6/28/26 upload github -->
+    <!-- Angel Jimenez, BSBA updated 6/28//2026 -->
+    <meta name="author" content="oceanbarber.us (www.oceanbarber.us)">
+    <meta content="global" name="distribution">
+    <meta content="index, follow" name="robots">
+    <!-- mySEO 5/14/2026 -->
+     <meta name="author" content="Ocean Barber Josh Jimenez">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oceanbarber.us/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oceanbarber.us/">
+    <meta property="og:title" content="oceanbarber.us Modern Fades & Grooming">
+    <meta property="og:description" content="Professional barber services including fades, beard trims, and classic cuts in San Diego, CA 92107.">
+    <meta property="og:image" content="https://www.oceanbarber.us/assets/ocean_beach_barber_josh_jimenez.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://oceanbarber.us/">
+    <meta property="twitter:title" content="oceanbarber.us | Modern Fades & Grooming">
+    <meta property="twitter:description" content="Book your next haircut, fade, or beard trim with expert barbers in Ocean Beach, CA.">
+    <meta property="twitter:image" content="https://oceanbarber.us/assets/ocean_beach_barber_josh_jimenez.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+  <!--     <style>
+        :root {
+            --gold: #b8860b;
+            --gold-light: #e8c98a;
+            --gold-dim: #6c5d2d;
+            --navy: #0B1C2C;
+            --navy-mid: #152840;
+            --navy-light: #1e3a56;
+            --cream: #F5EFE6;
+            --cream-dim: #d6cfc4;
+            --text-light: #c8d6e5;
+            --white: #ffffff;
+            --page-bg: #0d1b2a;
+        }
+        
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: "Barlow", sans-serif;
+            background: var(--page-bg);
+            color: var(--cream);
+            font-weight: 400;
+        }
+        /* ── HERO ── */
+        
+        .hero {
+            position: relative;
+            display: grid;
+            place-content: center;
+            min-height: 88vh;
+            padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 6vw, 5rem);
+            text-align: center;
+            overflow: hidden;
+            background-image: linear-gradient(160deg, rgba(11, 28, 44, 0.78) 0%, rgba(11, 28, 44, 0.38) 50%, rgba(11, 28, 44, 0.72) 100%), url(img/ocean%20beach.jpg);
+            background-size: cover;
+            background-position: center 40%;
+        }
+        /* overlay ocean image — fetched from Unsplash, blended over the base */
+        
+        .hero-ocean-overlay {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 60%;
+            mix-blend-mode: screen;
+            opacity: 0.18;
+            pointer-events: none;
+            animation: ocean-drift 18s ease-in-out infinite alternate;
+        }
+        
+        @keyframes ocean-drift {
+            0% {
+                transform: scale(1.04) translateX(0px);
+                opacity: 0.18;
+            }
+            50% {
+                transform: scale(1.07) translateX(-12px);
+                opacity: 0.22;
+            }
+            100% {
+                transform: scale(1.04) translateX(8px);
+                opacity: 0.18;
+            }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .hero-ocean-overlay {
+                animation: none;
+            }
+        }
+        /* light caustic shimmer pseudo-layer */
+        
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 55% 35% at 30% 55%, rgba(184, 134, 11, 0.07) 0%, transparent 70%), radial-gradient(ellipse 40% 28% at 72% 38%, rgba(100, 160, 220, 0.06) 0%, transparent 65%);
+            pointer-events: none;
+            mix-blend-mode: screen;
+        }
+        /* fade to page bg at bottom */
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, transparent 62%, var(--page-bg) 100%);
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        
+        .hero-eyebrow {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: clamp(0.7rem, 1.2vw, 0.82rem);
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 1.4rem;
+        }
+        
+        .hero h1 {
+            font-family: "Playfair Display", serif;
+            font-size: clamp(2.8rem, 6.5vw, 5.6rem);
+            font-weight: 900;
+            line-height: 1.07;
+            color: var(--white);
+            letter-spacing: -0.01em;
+            margin-bottom: 1.4rem;
+        }
+        
+        .hero h1 em {
+            font-style: italic;
+            color: var(--gold);
+        }
+        
+        .hero-text {
+            font-family: "Barlow", sans-serif;
+            font-size: clamp(1rem, 1.8vw, 1.15rem);
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--text-light);
+            max-width: 520px;
+            margin: 0 auto 2rem;
+        }
+        
+        .hero-btns {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn-primary {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--navy);
+            background: var(--gold);
+            padding: 0.75rem 1.8rem;
+            border-radius: 4px;
+            border: none;
+            transition: background 0.2s, transform 0.15s;
+        }
+        
+        .btn-primary:hover {
+            background: #f5d99c;
+            transform: translateY(-1px);
+        }
+        
+        .btn-outline {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--gold-light);
+            background: transparent;
+            padding: 0.75rem 1.8rem;
+            border-radius: 4px;
+            border: 1px solid rgba(232, 201, 138, 0.45);
+            transition: border-color 0.2s, background 0.2s;
+        }
+        
+        .btn-outline:hover {
+            border-color: var(--gold-light);
+            background: rgba(232, 201, 138, 0.07);
+        }
+        /* ── DIVIDER RULE ── */
+        
+        .section-rule {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            max-width: 140px;
+            margin: 0 auto 1.6rem;
+        }
+        
+        .section-rule span {
+            flex: 1;
+            height: 1px;
+            background: var(--gold-dim);
+        }
+        
+        .section-rule i {
+            font-size: 0.55rem;
+            color: var(--gold);
+            display: block;
+            width: 6px;
+            height: 6px;
+            background: var(--gold);
+            border-radius: 50%;
+        }
+        /* ── SERVICES STRIP ── */
+        
+        .services {
+            padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 6vw, 5rem);
+            text-align: center;
+            border-bottom: 1px solid rgba(184, 134, 11, 0.15);
+        }
+        
+        .services-label {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 2.5rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 2px;
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        
+        .service-card {
+            padding: 2rem 1.5rem;
+            background: rgba(21, 40, 64, 0.5);
+            transition: background 0.2s;
+        }
+        
+        .service-card:hover {
+            background: rgba(21, 40, 64, 0.85);
+        }
+        
+        .service-price {
+            font-family: "Playfair Display", serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--gold-light);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        
+        .service-name {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--cream-dim);
+        }
+        /* ── TESTIMONIALS ── */
+        
+        #testimonials {
+            padding: clamp(4rem, 7vw, 6rem) clamp(1.5rem, 6vw, 5rem);
+            text-align: center;
+        }
+        
+        .section-eyebrow {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 0.8rem;
+        }
+        
+        .section-heading {
+            font-family: "Playfair Display", serif;
+            font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 3rem;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            max-width: 980px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(184, 134, 11, 0.18);
+            border-radius: 3px;
+            padding: 2rem 1.75rem;
+            text-align: left;
+        }
+        
+        .testimonial-stars {
+            color: var(--gold);
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+        
+        .testimonial-quote {
+            font-family: "Playfair Display", serif;
+            font-size: 0.98rem;
+            font-style: italic;
+            line-height: 1.7;
+            color: var(--cream);
+            margin-bottom: 1.4rem;
+        }
+        
+        .testimonial-author {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--gold-dim);
+        }
+        /* ── CONTACT ── */
+        
+        #contact {
+            padding: clamp(4rem, 7vw, 6rem) clamp(1.5rem, 6vw, 5rem);
+            background: var(--navy-mid);
+            border-top: 1px solid rgba(184, 134, 11, 0.2);
+            border-bottom: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        
+        .contact-inner {
+            max-width: 980px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: clamp(2.5rem, 5vw, 5rem);
+            align-items: start;
+        }
+        
+        @media (max-width: 640px) {
+            .contact-inner {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .contact-info {
+            padding-top: 0.4rem;
+        }
+        
+        .contact-info .section-eyebrow {
+            text-align: left;
+        }
+        
+        .contact-info .section-heading {
+            text-align: left;
+            font-size: clamp(1.6rem, 3vw, 2.4rem);
+            margin-bottom: 1.2rem;
+        }
+        
+        .contact-body {
+            font-size: 0.97rem;
+            font-weight: 300;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+        
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.9rem;
+            margin-bottom: 1.1rem;
+        }
+        
+        .contact-detail-icon {
+            width: 32px;
+            height: 32px;
+            border: 1px solid rgba(184, 134, 11, 0.35);
+            border-radius: 3px;
+            display: grid;
+            place-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+        
+        .contact-detail-icon svg {
+            width: 15px;
+            height: 15px;
+            stroke: var(--gold);
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        
+        .contact-detail-label {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--gold-dim);
+            margin-bottom: 0.15rem;
+        }
+        
+        .contact-detail-value {
+            font-size: 0.93rem;
+            color: var(--cream);
+            line-height: 1.45;
+        }
+        /* FORM */
+        
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        @media (max-width: 480px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        
+        .field label {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--gold-dim);
+        }
+        
+        .field input,
+        .field select,
+        .field textarea {
+            font-family: "Barlow", sans-serif;
+            font-size: 0.92rem;
+            font-weight: 400;
+            color: var(--cream);
+            background: rgba(11, 28, 44, 0.6);
+            border: 1px solid rgba(184, 134, 11, 0.25);
+            border-radius: 3px;
+            padding: 0.65rem 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+            -webkit-appearance: none;
+        }
+        
+        .field input::placeholder,
+        .field textarea::placeholder {
+            color: rgba(200, 214, 229, 0.35);
+        }
+        
+        .field input:focus,
+        .field select:focus,
+        .field textarea:focus {
+            border-color: rgba(184, 134, 11, 0.65);
+        }
+        
+        .field select option {
+            background: var(--navy);
+            color: var(--cream);
+        }
+        
+        .field textarea {
+            resize: vertical;
+            min-height: 110px;
+            line-height: 1.55;
+        }
+        
+        .form-submit {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--navy);
+            background: var(--gold);
+            border: none;
+            border-radius: 4px;
+            padding: 0.85rem 2rem;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.15s;
+            align-self: flex-start;
+        }
+        
+        .form-submit:hover {
+            background: #f5d99c;
+            transform: translateY(-1px);
+        }
+        /* ── FOOTER ── */
+        
+        footer {
+            background: var(--navy);
+            padding: clamp(3rem, 5vw, 4rem) clamp(1.5rem, 6vw, 5rem) clamp(1.5rem, 3vw, 2rem);
+        }
+        
+        .footer-top {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: clamp(2rem, 4vw, 4rem);
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid rgba(184, 134, 11, 0.15);
+            margin-bottom: 2rem;
+        }
+        
+        @media (max-width: 680px) {
+            .footer-top {
+                grid-template-columns: 1fr 1fr;
+            }
+            .footer-brand {
+                grid-column: 1 / -1;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .footer-top {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .footer-wordmark {
+            font-family: "Playfair Display", serif;
+            font-size: 1.45rem;
+            font-weight: 900;
+            color: var(--white);
+            letter-spacing: -0.01em;
+            margin-bottom: 0.5rem;
+        }
+        /* changed to gold from gold-light 6/27/26 */
+        
+        .footer-wordmark span {
+            color: var(--gold);
+            font-style: italic;
+        }
+        
+        .footer-tagline {
+            font-size: 0.85rem;
+            font-weight: 300;
+            color: var(--text-light);
+            line-height: 1.6;
+            max-width: 240px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 0.6rem;
+        }
+        
+        .social-btn {
+            width: 32px;
+            height: 32px;
+            border: 1px solid rgba(184, 134, 11, 0.3);
+            border-radius: 3px;
+            display: grid;
+            place-content: center;
+            text-decoration: none;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        
+        .social-btn:hover {
+            border-color: var(--gold);
+            background: rgba(184, 134, 11, 0.1);
+        }
+        
+        .social-btn svg {
+            width: 14px;
+            height: 14px;
+            stroke: var(--gold-light);
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        
+        .footer-col-heading {
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 1.2rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+        }
+        
+        .footer-links a {
+            font-size: 0.88rem;
+            font-weight: 400;
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.18s;
+            line-height: 1;
+        }
+        
+        .footer-links a:hover {
+            color: var(--gold-light);
+        }
+        
+        .footer-hours {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.55rem;
+        }
+        
+        .footer-hours li {
+            font-size: 0.84rem;
+            color: var(--text-light);
+            font-weight: 300;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        
+        .footer-hours .day {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 600;
+            font-size: 0.78rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--cream-dim);
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-copy {
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: rgba(200, 214, 229, 0.45);
+            line-height: 1;
+        }
+        
+        .footer-legal {
+            display: flex;
+            gap: 1.4rem;
+        }
+        
+        .footer-legal a {
+            font-size: 0.75rem;
+            color: rgba(200, 214, 229, 0.4);
+            text-decoration: none;
+            transition: color 0.18s;
+        }
+        
+        .footer-legal a:hover {
+            color: var(--gold-light);
+        }
+        /* ── WAVE DIVIDER ── */
+        
+        .wave-divider {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            margin-top: -1px;
+        }
+        
+        .wave-divider svg {
+            display: block;
+            width: 100%;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- ════════ HERO ════════ -->
+    <section class="hero"> <img class="hero-ocean-overlay" src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1600&q=80&fit=crop" alt="" aria-hidden="true" loading="eager">
+        <div class="hero-content">
+            <p class="hero-eyebrow">oceanbarber.us &ensp;·&ensp; San Diego, CA</p>
+            <h1>Where Style<br>Meets the <em>Ocean Barber</em></h1>
+            <p class="hero-text">Ocean Barber classic premium cuts and modern military styles in a relaxed coastal atmosphere. Walk in confident. Walk out sharp.</p>
+            <div class="hero-btns"> <a href="https://oceanbarber.us/index.html" class="btn-primary">Book an Appointment</a> <a href="#testimonials" class="btn-outline">See Reviews</a> </div>
+        </div>
+    </section>
+    <!-- ════════ SERVICES STRIP ════════ -->
+    <section class="services">
+        <p class="services-label"> <a href="https://oceanbarber.us/index.html" class="btn-primary">Services & Pricing</a></p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Classic Cut</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Military Skin Fade Haircut</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Haircut & Beard Trim</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Beard Trim </div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Skin / Zero Fade</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Taper Fade Mullet</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">French Crop</div>
+            </div>
+            <div class="service-card">
+                <div class="service-price"></div>
+                <div class="service-name">Contour Skin Fade Hard Part</div>
+            </div>
+        </div>
+    </section>
+    <!-- ════════ TESTIMONIALS ════════ -->
+    <section id="testimonials">
+        <p class="section-eyebrow">Client Reviews</p>
+        <div class="section-rule" aria-hidden="true"><span></span><i></i><span></span></div>
+        <h2 class="section-heading">What people are saying</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-quote">"Best fade I've ever had. The vibe is exactly what you want after a surf — salt in the air and scissors doing their thing."</p>
+                <p class="testimonial-author">— Marcus T., Sunset Cliffs</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-quote">"I've been going to Ocean Barber for two years. Consistent, precise, and Josh actually listens to what you want."</p>
+                <p class="testimonial-author">— Daniel R., Ocean Beach</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-quote">" Called-in randomly Tuesday morning. Left looking like I had a standing appointment — which I now do."</p>
+                <p class="testimonial-author">— Kyle M., Mission Hills</p>
+            </div>
+        </div>
+       
+         <p class="services-label" style="margin-top: 50px;"> <a href="https://oceanbarber.us/ocean-beach-barber.html" class="btn-primary">My Work Gallery</a></p>
+    </section>
+    <!-- ════════ CONTACT ════════ -->
+    <section id="contact">
+        <div class="contact-inner">
+            <div class="contact-info">
+                <p class="section-eyebrow">Get in Touch</p>
+                <h2 class="section-heading">Book your visit</h2>
+                <p class="contact-body">Drop me a message and I'll confirm your slot within a few hours. Call-ins always welcome when the tide's right.</p>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                            <circle cx="12" cy="9" r="2.5" /> </svg>
+                    </div>
+                    <div>
+                        <p class="contact-detail-label">Location</p>
+                        <p class="contact-detail-value">Ocean Beach
+                            <br>San Diego, CA 92107</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /> </svg>
+                    </div>
+                    <div>
+                        <p class="contact-detail-label">Phone</p>
+                        <p class="contact-detail-value">(619) 495-0945</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" /> </svg>
+                    </div>
+                    <div>
+                        <p class="contact-detail-label">Hours</p>
+                        <p class="contact-detail-value">Tues–Fri 10am–4pm
+                            <br>Sat: Appointment Only</p>
+                    </div>
+                </div>
+            </div>
+            <!-- no-need ** 6/27/2026 
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">First name</label>
+            <input id="fname" type="text" placeholder="Carlos">
+          </div>
+          <div class="field">
+            <label for="lname">Last name</label>
+            <input id="lname" type="text" placeholder="Rivera">
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@email.com">
+        </div>
+        <div class="field">
+          <label for="service">Service</label>
+          <select id="service">
+            <option value="" disabled selected>Select a service…</option>
+            <option>Classic Cut — $35</option>
+            <option>Fade &amp; Style — $45</option>
+            <option>Cut &amp; Beard — $55</option>
+            <option>Beard Trim — $25</option>
+            <option>Hot Towel Shave — $30</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Note (optional)</label>
+          <textarea id="message" placeholder="Preferred day, any style notes…"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Request Booking</button>
+      </form>
+      -->
+        </div>
+    </section>
+    <!-- ════════ FOOTER ════════ -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <p class="footer-wordmark">Ocean <span>Barber</span></p>
+                <p class="footer-tagline">Ocean Beach fades, classic cuts and tapered fade. San Diego's spot for the sharp and the salty.</p>
+                <!-- Social Media Links n/a 6/28/2026 
+         <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Google Maps">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </a>
+        </div>
+        --></div>
+            <div>
+                <p class="footer-col-heading">Navigate</p>
+                <ul class="footer-links">
+                    <li><a href="https://oceanbarber.us/index.html">Services</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Book Now</a></li>
+                    <!-- <li><a href="https://oceanbarber.us/index.html">Prices</a></li> 6/28/26 -->
+                </ul>
+            </div>
+            <div>
+                <p class="footer-col-heading">Hours</p>
+                <ul class="footer-hours">
+                    <li><span class="day">Tues–Fri</span><span>10am – 4pm</span></li>
+                    <li><span class="day">Saturday</span><span>Appointment Only</span></li>
+                    <li><span class="day">Sunday & Monday</span><span>Closed</span></li>
+                    <li><span class="day">Holidays</span><span>Call ahead</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">© 2026 Ocean Barber | Josh Jimenez, San Diego CA. All rights reserved.</p>
+            <nav class="footer-legal" aria-label="Legal links"> <a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Accessibility</a> </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
